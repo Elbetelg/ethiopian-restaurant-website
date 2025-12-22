@@ -1,0 +1,85 @@
+<!DOCTYPE html> 
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habesha Ethiopian Restaurant | Reservation</title>
+    <link rel= "stylesheet" href="style.css" > 
+    <link rel = "icon" href = "Images/logo.png" type = "image/png">
+</head>  
+<body> 
+    <nav >
+      <ul class = "bar">
+         <li class = "logoclass">
+            <img class = "logo" src = "Images/logo.png" alt = "Habesha Restaurant" >
+         </li>
+         <li class = "navitem">
+                <a href = "index.html">Home</a>
+                <a href = "starter.html"> Menu</a>
+                <a href = "reservation.html" class = "active">Reservations</a>
+                <a href = "about.html">About Us</a>
+                <a href = "contact.html">Contact Us</a>
+         </li>
+         <li></li>
+      </ul>
+  </nav>
+  <main>   
+     <div class="reservation">
+       <h2>Table Reservation</h2>
+         <form id="reservationForm" >
+            <label for="fname">First Name:</label>
+              <input type="text" id="fname" name="fname" placeholder="First Name"required>
+            <label for="lname">Last Name:</label>
+              <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+            <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email here..." required>
+            <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" name="phone" placeholder="Enter your phone number here..."required>
+            <label for="date">Reservation Date:</label>
+              <input type="date" id="date" name="date" required>
+            <label for="time">Reservation Time:</label>
+              <input type="time" id="time" name="time" required>
+            <label for="guests">Number of Guests:</label>
+              <select id="guests" name="guests" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+              </select>
+              <button type="submit">Reserve Table</button>
+          </form>
+  </div>
+</main>
+
+<footer>
+    <div class = "footer">
+         <div class = "footersection">
+              <h4>Opening Hours</h4>
+                  <ul>
+                    <b>
+                      <li>Mon - Sat: 11:30 AM - 10 PM</li>
+                      <li>Sunday:  1:00 PM - 10:00 PM</li>
+                    </b>
+                 </ul>
+         </div>   
+         <div class = "footersection">
+              <h4>Address</h4>
+                  <p> 15 Chapel street,Co.Dublin</p> 
+         </div>   
+         <div class = "footersection">
+              <h4>Contact</h4>
+                  <p>+353 896754321</p>
+                  <p> Elbetel.Mustefa@ucdconnect.ie</p>
+         </div>
+    </div>
+    <h5>© 2025 by Habesha Restaurant  Proudly created by  Elbetel.</h5>
+ </footer>
+<script src = "script.js"></script> 
+</body>
+</html>
