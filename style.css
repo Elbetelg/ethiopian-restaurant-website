@@ -211,11 +211,6 @@ h1 {
   background-color: beige;
 }
 
-/* trying out */
-.contact-form-wrapper {
-  display: contents; /* This makes the form tag "invisible" to the layout, so .formsection and .contactimg remain siblings */
-}
-
 .menu ul{
  display: flex;
 justify-content: space-around;
