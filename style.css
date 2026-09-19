@@ -199,6 +199,11 @@ h1 {
 .star-rating:hover {
     cursor: pointer;
 }
+
+.contact-form-wrapper {
+  display: contents;
+}
+
 /*Class made to style the menu navigation bar.*/
 .menu{
   max-width: 900px;
